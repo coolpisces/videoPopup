@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    visibility: hidden;
+}
+
+.bi {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.container {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 550px;
+    border-radius: 20px;
+    border: none;
+    padding: 30px;
+    background-color: lavender;
+}
+
+.container img {
+    width: 100%;
+    height: 450px;
+}
+
+.videoContainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoContainer video {
+    height: 600px;
+
+}
+
+.watchButton {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(160, 19, 160);
+    color: white;
+    cursor: pointer;
+}
+
+.watchButton:hover {
+    background-color: red;
+}
